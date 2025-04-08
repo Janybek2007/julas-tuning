@@ -1,0 +1,39 @@
+.header {
+   background: var(--mint);
+   .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 24px 0;
+      img {
+         object-fit: contain;
+      }
+      .jylas-logo {
+         width: 84px;
+         height: 42px;
+      }
+      .askar-logo {
+         width: 46.8px;
+         gap: 35.06px;
+      }
+      .end {
+         display: flex;
+         align-items: center;
+         justify-content: flex-end;
+         gap: 60px;
+         a:not(.askar-logo) {
+            padding: 9px;
+				display: flex;
+				align-items: center;
+				gap: 9px;
+				font-size: 21.6px;
+				font-weight: 500;
+            img,
+				svg {
+               width: 21px;
+               height: 21px;
+            }
+         }
+      }
+   }
+}

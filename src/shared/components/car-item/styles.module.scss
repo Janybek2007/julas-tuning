@@ -1,0 +1,97 @@
+.car-item {
+   width: 100%;
+   border-radius: 10px;
+   position: relative;
+   overflow: hidden;
+   &.tuning {
+      background: var(--mint);
+   }
+   .head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 9px 13px;
+      padding-bottom: 0;
+
+      button {
+         &:hover {
+            text-decoration: underline;
+         }
+      }
+      * {
+         font-size: 15px;
+         letter-spacing: -0.3px;
+         font-weight: 500;
+         color: #656161;
+      }
+   }
+   .background {
+      background: var(--white);
+      position: absolute;
+      bottom: 0;
+      height: 183px;
+      border-top-left-radius: 30px;
+      border-top-right-radius: 30px;
+      width: 100%;
+      z-index: 1;
+      &[data-disabled='true'] {
+         height: 100%;
+      }
+   }
+   .content {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      height: 270px;
+      padding: 9px 13px;
+      position: relative;
+      z-index: 2;
+
+      img {
+         width: 270.6px;
+         height: 105px;
+         margin: 0 auto;
+         margin-bottom: 25px;
+         &[data-disabled='true'] {
+            opacity: 0.6;
+         }
+      }
+
+      h4 {
+         color: var(--gray);
+         font-weight: 600;
+         font-size: 18px;
+      }
+
+      .actions {
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+         gap: 12px;
+         margin-bottom: 12px;
+         margin-top: 16px;
+         button {
+            --padding-y: 11px;
+            --padding-x: 0;
+            --font-size: 15px;
+            --font-weight: 500;
+            &[class*='c-mint'] {
+               --background-mint-hover: var(--secondary);
+            }
+            border: 1px solid;
+            width: 100%;
+            &.call {
+               --border-primary: var(--primary);
+               --color-primary: var(--primary);
+               path {
+                  fill: var(--primary);
+               }
+            }
+            svg {
+               width: 18px;
+               height: 18px;
+            }
+         }
+      }
+   }
+}

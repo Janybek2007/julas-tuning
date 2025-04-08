@@ -1,0 +1,44 @@
+.soon {
+   height: 700px;
+   background: url('/images/soon-gradient.png');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   * {
+      will-change: transform;
+   }
+   h4 {
+      background: linear-gradient(90deg, #ffffff 0%, #494343 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      font-weight: 600;
+      font-size: 64px;
+      line-height: 100%;
+   }
+
+   p {
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 100%;
+      color: #e3e1e1;
+      margin: 40px 0;
+      max-width: 570px;
+      text-align: center;
+      line-height: 1.1;
+   }
+   a {
+      background: #ffffff;
+      padding: 13px 51px;
+      border-radius: 30px;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 100%;
+      color: var(--mint);
+      transition: all 0.25s;
+   }
+}

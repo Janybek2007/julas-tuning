@@ -1,0 +1,27 @@
+:root {
+   --font-sans: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+      'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+   --font-family: 'Montserrat', var(--font-sans);
+   --inter: 'Inter', var(--font-sans);
+   --manrope: 'Manrope', var(--font-sans);
+
+   --primary: #034542;
+   --hover-primary: #02312f;
+   --secondary: #157a75;
+   --hover-secondary: #2b948f;
+   --tertiary: #f1b83f;
+   --hover-tertiary: #d9a230;
+   --mint: #161616;
+   --hover-mint: #303030;
+   --white: #fff;
+   --hover-white: #f0f0f0;
+   --text: var(--white);
+   --gray: #383737;
+
+   --bg: #1e1e1e;
+   --hover-bg: #252525;
+
+   // container
+   --container-mw: 75%;
+   --container-px: 0;
+}

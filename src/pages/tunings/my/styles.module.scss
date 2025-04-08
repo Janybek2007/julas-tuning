@@ -1,0 +1,14 @@
+.main {
+   margin: 40px 0;
+
+   .title {
+      font-weight: 700;
+      font-size: 36px;
+   }
+   .list {
+      display: grid;
+      gap: 25px;
+      grid-template-columns: repeat(4, 1fr);
+      margin-top: 25px;
+   }
+}

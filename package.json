@@ -1,0 +1,37 @@
+{
+   "name": "jylas-tuning",
+   "private": true,
+   "type": "module",
+   "scripts": {
+      "build": "react-router build",
+      "dev": "react-router dev",
+      "start": "react-router-serve ./build/server/index.js",
+      "typecheck": "react-router typegen && tsc"
+   },
+   "dependencies": {
+      "@iconify/react": "^5.2.1",
+      "@react-router/node": "^7.4.1",
+      "@react-router/serve": "^7.4.1",
+      "isbot": "^5.1.17",
+      "nuqs": "^2.4.1",
+      "react": "^19.0.0",
+      "react-dom": "^19.0.0",
+      "react-router": "^7.4.1",
+      "swiper": "^11.2.6",
+      "three": "^0.175.0",
+      "zod": "^3.24.2"
+   },
+   "devDependencies": {
+      "@react-router/dev": "^7.4.1",
+      "@types/node": "^20",
+      "@types/react": "^19.0.1",
+      "@types/react-dom": "^19.0.1",
+      "@types/three": "^0.175.0",
+      "react-router-devtools": "^1.1.0",
+      "sass": "^1.86.2",
+      "typescript": "^5.7.2",
+      "vite": "^5.4.11",
+      "vite-plugin-compression": "^0.5.1",
+      "vite-tsconfig-paths": "^5.1.4"
+   }
+}
